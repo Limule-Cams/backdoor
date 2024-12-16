@@ -4,7 +4,7 @@ import subprocess
 import platform
 import os
 
-PORT , HOST = 3600, "127.0.0.1"
+PORT , HOST = 3600, "192.168.5.220" #ici l'ip de votre machine sur le reseau local
 MAX_SIZE = 1024
 
 while True:

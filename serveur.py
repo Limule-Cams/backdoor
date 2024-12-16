@@ -1,6 +1,6 @@
 import socket
 
-PORT , HOST = 3600, "127.0.0.1"
+PORT , HOST = 3600, "0.0.0.0" # écoute tout les interfaces reseaux
 MAX_SIZE = 1024
 
 s = socket.socket()
